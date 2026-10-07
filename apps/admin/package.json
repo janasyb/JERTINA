@@ -10,10 +10,17 @@
     "start": "echo 'admin portal scaffold'",
     "lint": "echo 'admin portal scaffold'",
     "test": "echo 'admin portal scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "@jertina/design-tokens": "workspace:*",
-    "@jertina/ui": "workspace:*"
+    "@jertina/ui": "workspace:*",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0"
   }
 }

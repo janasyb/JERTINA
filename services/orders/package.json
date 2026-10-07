@@ -11,6 +11,6 @@
     "build": "echo 'orders scaffold'",
     "lint": "echo 'orders scaffold'",
     "test": "echo 'orders scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

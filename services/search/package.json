@@ -11,6 +11,6 @@
     "build": "echo 'search scaffold'",
     "lint": "echo 'search scaffold'",
     "test": "echo 'search scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

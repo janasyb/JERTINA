@@ -11,6 +11,6 @@
     "build": "echo 'ai platform scaffold'",
     "lint": "echo 'ai platform scaffold'",
     "test": "echo 'ai platform scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

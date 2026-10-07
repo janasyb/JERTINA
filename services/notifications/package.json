@@ -11,6 +11,6 @@
     "build": "echo 'notifications scaffold'",
     "lint": "echo 'notifications scaffold'",
     "test": "echo 'notifications scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

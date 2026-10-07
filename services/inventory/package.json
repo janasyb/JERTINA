@@ -11,6 +11,6 @@
     "build": "echo 'inventory scaffold'",
     "lint": "echo 'inventory scaffold'",
     "test": "echo 'inventory scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

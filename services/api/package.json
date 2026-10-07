@@ -12,6 +12,6 @@
     "start": "echo 'api scaffold'",
     "lint": "echo 'api scaffold'",
     "test": "echo 'api scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

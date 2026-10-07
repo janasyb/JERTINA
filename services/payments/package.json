@@ -11,6 +11,6 @@
     "build": "echo 'payments scaffold'",
     "lint": "echo 'payments scaffold'",
     "test": "echo 'payments scaffold'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

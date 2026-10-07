@@ -1,0 +1,19 @@
+{
+  "name": "@jertina/admin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JERTINA internal admin portal.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "echo 'admin portal scaffold'",
+    "build": "echo 'admin portal scaffold'",
+    "start": "echo 'admin portal scaffold'",
+    "lint": "echo 'admin portal scaffold'",
+    "test": "echo 'admin portal scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  },
+  "dependencies": {
+    "@jertina/design-tokens": "workspace:*",
+    "@jertina/ui": "workspace:*"
+  }
+}

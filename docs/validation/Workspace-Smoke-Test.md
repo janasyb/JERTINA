@@ -4,23 +4,24 @@
 
 **Version:** v0.1.0  
 **Status:** Draft for Review  
-**Milestone:** RF-012
+**Milestone:** RF-013
 
 ---
 
 ## Purpose
 
-The workspace smoke test confirms that the key packages, services, and applications exist and can be loaded from the repository root.
+The workspace smoke test confirms that the repository contains the expected files and package manifests across the platform.
 
 ---
 
 ## Checks
 
+- Root repository files exist
 - Shared packages exist
 - Services exist
 - Applications exist
-- Key entrypoints are present
-- Modules can be imported without path errors
+- Package manifests parse correctly
+- The lockfile is present
 
 ---
 

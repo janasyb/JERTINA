@@ -1,0 +1,78 @@
+{
+  "name": "jertina-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JERTINA Enterprise Commerce & AI Platform",
+  "author": "JERTINA",
+  "license": "UNLICENSED",
+
+  "packageManager": "pnpm@10.0.0",
+
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+
+  "scripts": {
+    "dev": "turbo run dev",
+
+    "build": "turbo run build",
+
+    "test": "turbo run test",
+
+    "lint": "turbo run lint",
+
+    "typecheck": "turbo run typecheck",
+
+    "format": "prettier --write .",
+
+    "format:check": "prettier --check .",
+
+    "clean": "turbo run clean",
+
+    "prepare": "husky",
+
+    "check": "pnpm lint && pnpm typecheck && pnpm test",
+
+    "docs": "turbo run docs"
+  },
+
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+
+    "eslint": "^9.0.0",
+
+    "husky": "^9.0.0",
+
+    "lint-staged": "^16.0.0",
+
+    "prettier": "^3.6.0",
+
+    "turbo": "^2.5.0",
+
+    "typescript": "^5.9.0"
+  },
+
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+
+  "keywords": [
+    "jertina",
+    "enterprise",
+    "ecommerce",
+    "ai",
+    "automation",
+    "marketplace",
+    "technology",
+    "platform"
+  ]
+}

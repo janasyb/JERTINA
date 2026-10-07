@@ -1,16 +1,27 @@
 {
   "name": "@jertina/database",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Database helpers and schema scaffold for JERTINA.",
+  "description": "Database foundation and Prisma schema for JERTINA.",
   "license": "UNLICENSED",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
-  "files": ["src"],
+  "files": ["src", "prisma"],
   "scripts": {
     "build": "echo 'database package scaffold'",
-    "lint": "echo 'no lint rules yet'",
-    "test": "echo 'no tests yet'",
-    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
-  }
+    "dev": "echo 'database package scaffold'",
+    "lint": "echo 'database package scaffold'",
+    "test": "echo 'database package scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json",
+    "prisma:format": "echo 'prisma format will be enabled after dependency installation'",
+    "prisma:validate": "echo 'prisma validate will be enabled after dependency installation'",
+    "prisma:generate": "echo 'prisma generate will be enabled after dependency installation'"
+  },
+  "keywords": [
+    "jertina",
+    "database",
+    "prisma",
+    "postgresql",
+    "commerce"
+  ]
 }

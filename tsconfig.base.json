@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@jertina/config": ["packages/config/src"],
+      "@jertina/database": ["packages/database/src"],
+      "@jertina/design-tokens": ["packages/design-tokens/src"],
+      "@jertina/types": ["packages/types/src"],
+      "@jertina/ui": ["packages/ui/src"],
+      "@jertina/utils": ["packages/utils/src"]
+    }
+  }
+}

@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.1.1 |
-| Current Milestone | RF-002B |
+| Version | v0.2.0 |
+| Current Milestone | RF-003 |
 | Branch | main |
 | Status | Active Development |
 
@@ -20,8 +20,10 @@
 | 0.5 | ✅ Complete | Repository Setup | v1.0 |
 | RF-001 | ✅ Complete | Initial Repository Foundation | v0.1.0 |
 | RF-002A | ✅ Complete | README Foundation | v0.1.1 |
-| RF-002B | 🔄 In Progress | Repository Metadata & Architecture | v0.1.1 |
-| RF-003 | Planned | Engineering Workspace | v0.2.0 |
+| RF-002B | ✅ Complete | Repository Metadata & Architecture | v0.1.1 |
+| RF-002C | ✅ Complete | Repository Standards | v0.1.1 |
+| RF-002D | ✅ Complete | License & Ignore Rules | v0.1.1 |
+| RF-003 | 🔄 In Progress | Engineering Workspace | v0.2.0 |
 | RF-004 | Planned | Shared Packages | v0.3.0 |
 | RF-005 | Planned | Brand & Design System | v0.4.0 |
 | RF-006 | Planned | Database Foundation | v0.5.0 |
@@ -39,3 +41,6 @@
 |---------|-------------|
 | 7ba49a0 | RF-001 Repository Foundation |
 | e5d4f4d | RF-002A README Foundation |
+| 2d19f9b | RF-002B Repository Metadata & Architecture |
+| 10c79f2 | RF-002C Repository Standards |
+| e853b56 | RF-002D License & Ignore Rules |

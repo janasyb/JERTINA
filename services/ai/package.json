@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI orchestration service for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'ai platform scaffold'",
+    "build": "echo 'ai platform scaffold'",
+    "lint": "echo 'ai platform scaffold'",
+    "test": "echo 'ai platform scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

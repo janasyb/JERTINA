@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.1.7 |
-| Current Milestone | RF-009 |
+| Version | v0.1.8 |
+| Current Milestone | RF-010 |
 | Branch | main |
 | Status | Active Development |
 
@@ -29,8 +29,8 @@
 | RF-006 | ✅ Complete | Database Foundation | v0.1.4 |
 | RF-007 | ✅ Complete | Backend Services | v0.1.5 |
 | RF-008 | ✅ Complete | Web Storefront | v0.1.6 |
-| RF-009 | 🔄 In Progress | Admin Portal | v0.1.7 |
-| RF-010 | Planned | AI Platform | v0.2.0 |
+| RF-009 | ✅ Complete | Admin Portal | v0.1.7 |
+| RF-010 | 🔄 In Progress | AI Platform | v0.1.8 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
 
 ---
@@ -50,3 +50,4 @@
 | 613c272 | RF-006 Database Foundation |
 | 6ed0e35 | RF-007 Backend Service Scaffolds |
 | 517d6e0 | RF-008 Web Storefront |
+| b415a84 | RF-009 Admin Portal |

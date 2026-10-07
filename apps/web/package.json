@@ -1,0 +1,19 @@
+{
+  "name": "@jertina/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JERTINA customer storefront.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "echo 'web storefront scaffold'",
+    "build": "echo 'web storefront scaffold'",
+    "start": "echo 'web storefront scaffold'",
+    "lint": "echo 'web storefront scaffold'",
+    "test": "echo 'web storefront scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  },
+  "dependencies": {
+    "@jertina/design-tokens": "workspace:*",
+    "@jertina/ui": "workspace:*"
+  }
+}

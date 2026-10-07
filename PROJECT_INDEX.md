@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.1.9 |
-| Current Milestone | RF-011 |
+| Version | v0.2.0 |
+| Current Milestone | RF-012 |
 | Branch | main |
 | Status | Active Development |
 
@@ -31,7 +31,8 @@
 | RF-008 | ✅ Complete | Web Storefront | v0.1.6 |
 | RF-009 | ✅ Complete | Admin Portal | v0.1.7 |
 | RF-010 | ✅ Complete | AI Platform | v0.1.8 |
-| RF-011 | 🔄 In Progress | Validation & Hardening | v0.1.9 |
+| RF-011 | ✅ Complete | Validation & Hardening | v0.1.9 |
+| RF-012 | 🔄 In Progress | Workspace Smoke Test | v0.2.0 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
 
 ---
@@ -53,3 +54,4 @@
 | 517d6e0 | RF-008 Web Storefront |
 | b415a84 | RF-009 Admin Portal |
 | d1c4072 | RF-010 AI Platform |
+| 5207258 | RF-011 Validation & Hardening |

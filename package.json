@@ -27,7 +27,8 @@
     "prepare": "husky",
     "check": "pnpm lint && pnpm typecheck && pnpm test",
     "docs": "turbo run docs",
-    "validate:structure": "node scripts/verify-repository.mjs"
+    "validate:structure": "node scripts/verify-repository.mjs",
+    "smoke": "node scripts/smoke-workspace.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

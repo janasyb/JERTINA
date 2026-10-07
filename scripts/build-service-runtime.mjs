@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const [,, serviceName] = process.argv;
+const [, , serviceName] = process.argv;
 
 if (!serviceName) {
   console.error("Usage: node scripts/build-service-runtime.mjs <service-name>");
@@ -28,18 +28,15 @@ for (const file of sourceFiles) {
   fs.copyFileSync(src, out);
 }
 
+const buildInfo = {
+  service: serviceName,
+  builtAt: new Date().toISOString(),
+  files: sourceFiles.map((file) => path.basename(file)),
+};
+
 fs.writeFileSync(
   path.join(distDir, "build-info.json"),
-  JSON.stringify(
-    {
-      service: serviceName,
-      builtAt: new Date().toISOString(),
-      files: sourceFiles.map((file) => path.basename(file)),
-    },
-    null,
-    2,
-  ) + "
-",
+  JSON.stringify(buildInfo, null, 2) + "\n",
   "utf8",
 );
 

@@ -1,0 +1,23 @@
+name: Validate Repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  structure:
+    name: Validate structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate repository structure
+        run: node scripts/verify-repository.mjs

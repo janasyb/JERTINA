@@ -1,0 +1,9 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">JERTINA Master Logo Black</title>
+  <desc id="desc">Monochrome black version of the JERTINA logo.</desc>
+  <rect width="1200" height="400" rx="40" fill="white"/>
+  <circle cx="180" cy="200" r="124" fill="#0F172A"/>
+  <path d="M176 110H240V224C240 285 205 320 150 320C119 320 93 310 72 292L103 252C119 264 134 271 153 271C183 271 176 247 176 223V110Z" fill="white"/>
+  <text x="360" y="208" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="10">JERTINA</text>
+  <text x="362" y="264" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="6">COMMERCE • AI • AUTOMATION</text>
+</svg>

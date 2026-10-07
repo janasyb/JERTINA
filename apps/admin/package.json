@@ -5,22 +5,22 @@
   "description": "JERTINA internal admin portal.",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "echo 'admin portal scaffold'",
-    "build": "echo 'admin portal scaffold'",
-    "start": "echo 'admin portal scaffold'",
-    "lint": "echo 'admin portal scaffold'",
-    "test": "echo 'admin portal scaffold'",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'lint to be enabled with ESLint config'",
+    "test": "echo 'admin app smoke handled by workspace smoke test'",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "@jertina/design-tokens": "workspace:*",
     "@jertina/ui": "workspace:*",
     "next": "^16.4.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0"
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2"
   }
 }

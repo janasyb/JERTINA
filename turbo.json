@@ -4,7 +4,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", "build/**", ".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "dist/**", "build/**", "coverage/**"]
     },
     "dev": {
       "cache": false,
@@ -15,18 +15,16 @@
     },
     "test": {
       "dependsOn": ["^build"],
-      "outputs": []
+      "outputs": ["coverage/**"]
     },
     "typecheck": {
-      "dependsOn": ["^build"],
       "outputs": []
     },
     "clean": {
-      "cache": false,
-      "outputs": []
+      "cache": false
     },
     "docs": {
-      "outputs": ["docs-dist/**"]
+      "outputs": []
     }
   }
 }

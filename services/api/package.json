@@ -7,11 +7,11 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "dev": "echo 'api scaffold'",
-    "build": "echo 'api scaffold'",
-    "start": "echo 'api scaffold'",
-    "lint": "echo 'api scaffold'",
-    "test": "echo 'api scaffold'",
+    "dev": "node src/runtime.mjs",
+    "build": "echo 'api runtime scaffold'",
+    "start": "node src/runtime.mjs",
+    "lint": "echo 'api runtime scaffold'",
+    "test": "echo 'api runtime smoke handled by workspace smoke test'",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

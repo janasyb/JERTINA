@@ -8,7 +8,11 @@ async function run() {
     userMessage: "Recommend a premium laptop bag for frequent travel.",
   });
 
-  console.log(result.provider, result.model, result.content);
+  if (!result.content) {
+    throw new Error("AI response content missing");
+  }
+
+  console.log("AI orchestrator test passed.");
 }
 
 run().catch((error) => {

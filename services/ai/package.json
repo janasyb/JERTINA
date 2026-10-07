@@ -7,10 +7,10 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "dev": "echo 'ai platform scaffold'",
-    "build": "echo 'ai platform scaffold'",
-    "lint": "echo 'ai platform scaffold'",
-    "test": "echo 'ai platform scaffold'",
+    "dev": "node src/runtime.mjs",
+    "build": "echo 'ai runtime scaffold'",
+    "lint": "echo 'ai runtime scaffold'",
+    "test": "node src/index.test.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

@@ -8,9 +8,9 @@
   "types": "./src/index.ts",
   "scripts": {
     "dev": "node src/runtime.mjs",
-    "build": "echo 'ai runtime scaffold'",
+    "build": "node ../../scripts/build-service-runtime.mjs ai",
     "lint": "echo 'ai runtime scaffold'",
-    "test": "node src/index.test.ts",
+    "test": "node dist/index.test.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

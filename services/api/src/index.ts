@@ -1,2 +1,5 @@
 export const apiServiceName = "@jertina/api";
-export { default as runtime } from "./runtime.mjs";
+
+export function getApiServiceName(): string {
+  return apiServiceName;
+}

@@ -8,10 +8,10 @@
   "types": "./src/index.ts",
   "scripts": {
     "dev": "node src/runtime.mjs",
-    "build": "echo 'api runtime scaffold'",
-    "start": "node src/runtime.mjs",
+    "build": "node ../../scripts/build-service-runtime.mjs api",
+    "start": "node dist/runtime.mjs",
     "lint": "echo 'api runtime scaffold'",
-    "test": "echo 'api runtime smoke handled by workspace smoke test'",
+    "test": "node dist/runtime.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   }
 }

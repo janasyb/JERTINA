@@ -4,8 +4,8 @@ AI orchestration service for JERTINA.
 
 ## Purpose
 
-This service will coordinate model providers, prompts, tool calls, and AI-driven workflows across the platform.
+This service coordinates model providers, prompts, tool calls, and AI-driven workflows across the platform.
 
 ## Current Stage
 
-Scaffold stage for RF-010.
+Runtime-consolidated stage for RF-015.

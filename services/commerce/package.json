@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/commerce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Commerce domain service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'commerce scaffold'",
+    "build": "echo 'commerce scaffold'",
+    "lint": "echo 'commerce scaffold'",
+    "test": "echo 'commerce scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

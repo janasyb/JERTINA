@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/inventory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Inventory service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'inventory scaffold'",
+    "build": "echo 'inventory scaffold'",
+    "lint": "echo 'inventory scaffold'",
+    "test": "echo 'inventory scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

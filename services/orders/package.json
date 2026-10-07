@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/orders",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Order lifecycle service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'orders scaffold'",
+    "build": "echo 'orders scaffold'",
+    "lint": "echo 'orders scaffold'",
+    "test": "echo 'orders scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

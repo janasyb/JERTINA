@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Search service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'search scaffold'",
+    "build": "echo 'search scaffold'",
+    "lint": "echo 'search scaffold'",
+    "test": "echo 'search scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@jertina/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HTTP API gateway for the JERTINA platform.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'api scaffold'",
+    "build": "echo 'api scaffold'",
+    "start": "echo 'api scaffold'",
+    "lint": "echo 'api scaffold'",
+    "test": "echo 'api scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

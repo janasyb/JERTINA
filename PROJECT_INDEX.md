@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.1.4 |
-| Current Milestone | RF-006 |
+| Version | v0.1.5 |
+| Current Milestone | RF-007 |
 | Branch | main |
 | Status | Active Development |
 
@@ -26,11 +26,11 @@
 | RF-003 | ✅ Complete | Engineering Workspace | v0.1.2 |
 | RF-004 | ✅ Complete | Shared Packages | v0.1.2 |
 | RF-005 | ✅ Complete | Brand & Design System | v0.1.3 |
-| RF-006 | 🔄 In Progress | Database Foundation | v0.1.4 |
-| RF-007 | Planned | Backend Services | v0.2.0 |
-| RF-008 | Planned | Web Storefront | v0.3.0 |
-| RF-009 | Planned | Admin Portal | v0.4.0 |
-| RF-010 | Planned | AI Platform | v0.5.0 |
+| RF-006 | ✅ Complete | Database Foundation | v0.1.4 |
+| RF-007 | 🔄 In Progress | Backend Services | v0.1.5 |
+| RF-008 | Planned | Web Storefront | v0.2.0 |
+| RF-009 | Planned | Admin Portal | v0.3.0 |
+| RF-010 | Planned | AI Platform | v0.4.0 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
 
 ---
@@ -47,3 +47,4 @@
 | 20f5b3d | RF-003 Engineering Workspace |
 | b3bd3d9 | RF-004 Shared Package Scaffolds |
 | c799805 | RF-005 Brand & Design System |
+| 613c272 | RF-006 Database Foundation |

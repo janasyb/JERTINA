@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/notifications",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Notifications service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'notifications scaffold'",
+    "build": "echo 'notifications scaffold'",
+    "lint": "echo 'notifications scaffold'",
+    "test": "echo 'notifications scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

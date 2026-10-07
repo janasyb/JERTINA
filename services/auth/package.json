@@ -1,0 +1,16 @@
+{
+  "name": "@jertina/auth",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Authentication and session service scaffold for JERTINA.",
+  "license": "UNLICENSED",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "dev": "echo 'auth scaffold'",
+    "build": "echo 'auth scaffold'",
+    "lint": "echo 'auth scaffold'",
+    "test": "echo 'auth scaffold'",
+    "typecheck": "tsc --noEmit -p ../../tsconfig.base.json"
+  }
+}

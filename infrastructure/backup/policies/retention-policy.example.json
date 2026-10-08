@@ -1,0 +1,17 @@
+{
+  "environment": "production",
+  "databaseBackups": {
+    "frequency": "daily",
+    "retentionDays": 30,
+    "encryption": true
+  },
+  "configBackups": {
+    "frequency": "weekly",
+    "retentionDays": 90,
+    "encryption": true
+  },
+  "restoreTests": {
+    "frequency": "weekly",
+    "required": true
+  }
+}

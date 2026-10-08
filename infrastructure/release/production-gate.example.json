@@ -11,7 +11,7 @@
   "monitoring": true,
   "rollbackPlan": true,
   "cutoverPlan": true,
-  "founderApproval": false,
+  "founderApproval": true,
   "supportPlan": true,
-  "domainsConfigured": false
+  "domainsConfigured": true
 }

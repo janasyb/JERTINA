@@ -1,0 +1,13 @@
+{
+  "security": {
+    "secretsTemplatesPresent": true,
+    "vulnerabilityDisclosureDocumented": true,
+    "securityWorkflowEnabled": false
+  },
+  "operations": {
+    "backupPlanPublished": true,
+    "incidentRunbookPublished": true,
+    "monitoringPublished": true
+  },
+  "status": "draft"
+}

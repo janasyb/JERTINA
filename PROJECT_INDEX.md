@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.2.8 |
-| Current Milestone | RF-020 |
+| Version | v0.2.9 |
+| Current Milestone | RF-021 |
 | Branch | main |
 | Status | Active Development |
 
@@ -40,7 +40,8 @@
 | RF-017 | ✅ Complete | Deployment & Environment Hardening | v0.2.5 |
 | RF-018 | ✅ Complete | Cloud & Secrets Foundation | v0.2.6 |
 | RF-019 | ✅ Complete | Observability & Monitoring Foundation | v0.2.7 |
-| RF-020 | 🔄 In Progress | Incident Response & Backup/Recovery Foundation | v0.2.8 |
+| RF-020 | ✅ Complete | Incident Response & Backup/Recovery Foundation | v0.2.8 |
+| RF-021 | 🔄 In Progress | Security & Compliance Foundation | v0.2.9 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
 
 ---
@@ -74,3 +75,4 @@
 | 75b7e8a | RF-017 Deployment Foundation |
 | 92daf58 | RF-018 Cloud and Secrets Foundation |
 | 55c6930 | RF-019 Observability Foundation |
+| e032561 | RF-020 Incident Response Foundation |

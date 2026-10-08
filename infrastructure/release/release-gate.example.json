@@ -1,0 +1,15 @@
+{
+  "ci": true,
+  "smoke": true,
+  "build": true,
+  "test": true,
+  "typecheck": true,
+  "security": true,
+  "backup": true,
+  "performance": true,
+  "accessibility": true,
+  "monitoring": true,
+  "rollbackPlan": true,
+  "cutoverPlan": true,
+  "founderApproval": false
+}

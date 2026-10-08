@@ -1,0 +1,13 @@
+{
+  "web": {
+    "fcpMs": 2500,
+    "lcpMs": 3000,
+    "jsBudgetKb": 500
+  },
+  "admin": {
+    "interactiveMs": 3000
+  },
+  "api": {
+    "healthMs": 500
+  }
+}

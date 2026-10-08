@@ -1,0 +1,27 @@
+{
+  "title": "JERTINA Overview",
+  "uid": "jertina-overview",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "30s",
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "panels": [
+    {
+      "type": "text",
+      "title": "JERTINA Status",
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "mode": "markdown",
+        "content": "# JERTINA\n\nUse this dashboard to monitor core platform availability."
+      }
+    }
+  ]
+}

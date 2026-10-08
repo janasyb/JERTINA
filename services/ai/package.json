@@ -7,10 +7,13 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "dev": "node src/runtime.mjs",
-    "build": "node ../../scripts/build-service-runtime.mjs ai",
-    "lint": "echo 'ai runtime scaffold'",
-    "test": "node dist/index.test.ts",
-    "typecheck": "tsc --noEmit -p tsconfig.json"
+  "dev": "node src/runtime.mjs",
+  "build": "node ../../scripts/build-service-runtime.mjs ai",
+  "lint": "echo 'ai runtime scaffold'",
+  "test": "tsx src/index.test.ts",
+  "typecheck": "tsc --noEmit -p tsconfig.json"
+ },
+  "devDependencies": {
+    "tsx": "^4.23.15"
   }
 }

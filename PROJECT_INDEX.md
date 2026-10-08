@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.2.4 |
-| Current Milestone | RF-016 |
+| Version | v0.2.5 |
+| Current Milestone | RF-017 |
 | Branch | main |
 | Status | Active Development |
 
@@ -36,32 +36,6 @@
 | RF-013 | ✅ Complete | Smoke Test Runtime | v0.2.1 |
 | RF-014 | ✅ Complete | Real Package Runtime | v0.2.2 |
 | RF-015 | ✅ Complete | Service Runtime Consolidation | v0.2.3 |
-| RF-016 | 🔄 In Progress | CI/CD & Release Automation | v0.2.4 |
+| RF-016 | ✅ Complete | CI/CD & Release Automation | v0.2.4 |
+| RF-017 | 🔄 In Progress | Deployment & Environment Hardening | v0.2.5 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
-
----
-
-## Commit History
-
-| Commit | Description |
-|---------|-------------|
-| 7ba49a0 | RF-001 Repository Foundation |
-| e5d4f4d | RF-002A README Foundation |
-| 2d19f9b | RF-002B Repository Metadata & Architecture |
-| 10c79f2 | RF-002C Repository Standards |
-| e853b56 | RF-002D License and Ignore Rules |
-| 20f5b3d | RF-003 Engineering Workspace |
-| b3bd3d9 | RF-004 Shared Package Scaffolds |
-| c799805 | RF-005 Brand & Design System |
-| 613c272 | RF-006 Database Foundation |
-| 6ed0e35 | RF-007 Backend Service Scaffolds |
-| 517d6e0 | RF-008 Web Storefront |
-| b415a84 | RF-009 Admin Portal |
-| d1c4072 | RF-010 AI Platform |
-| 5207258 | RF-011 Validation & Hardening |
-| 22d7300 | RF-012 Workspace Smoke Test |
-| 3790798 | RF-013 Smoke Test Runtime |
-| 3bee2e3 | Workspace Typecheck Fix |
-| 4665646 | RF-014 Real Package Runtime |
-| 030de23 | RF-015 Service Runtime Consolidation |
-| 5a958aa | RF-014 Build Runtime Cleanup |

@@ -1,0 +1,61 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: jertina
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/api/Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/jertina
+    depends_on:
+      - db
+    ports:
+      - "4000:4000"
+
+  ai:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/ai/Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 4100
+    depends_on:
+      - db
+    ports:
+      - "4100:4100"
+
+  web:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/web/Dockerfile
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+
+  admin:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/admin/Dockerfile
+    environment:
+      NODE_ENV: production
+    depends_on:
+      - api
+    ports:
+      - "3001:3000"
+
+volumes:
+  db_data:

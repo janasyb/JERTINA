@@ -1,0 +1,26 @@
+name: Production Launch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - run: corepack enable
+      - run: corepack prepare pnpm@10.0.0 --activate
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm validate:structure
+      - run: pnpm typecheck
+      - run: pnpm smoke
+      - run: node scripts/check-performance.mjs
+      - run: node scripts/check-accessibility.mjs
+      - run: node scripts/check-compliance.mjs
+      - run: node scripts/check-backups.mjs
+      - run: node scripts/check-launch-readiness.mjs
+      - run: node scripts/launch-production.mjs

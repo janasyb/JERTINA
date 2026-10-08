@@ -7,3 +7,5 @@ This folder contains the final release readiness scaffolding for JERTINA.
 - rollback plan template
 - launch checklist
 - release gate script
+- production launch gate
+- production support plan

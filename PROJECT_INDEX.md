@@ -5,8 +5,8 @@
 | Item | Value |
 |------|-------|
 | Repository | JERTINA |
-| Version | v0.2.3 |
-| Current Milestone | RF-015 |
+| Version | v0.2.4 |
+| Current Milestone | RF-016 |
 | Branch | main |
 | Status | Active Development |
 
@@ -35,7 +35,8 @@
 | RF-012 | ✅ Complete | Workspace Smoke Test | v0.2.0 |
 | RF-013 | ✅ Complete | Smoke Test Runtime | v0.2.1 |
 | RF-014 | ✅ Complete | Real Package Runtime | v0.2.2 |
-| RF-015 | 🔄 In Progress | Service Runtime Consolidation | v0.2.3 |
+| RF-015 | ✅ Complete | Service Runtime Consolidation | v0.2.3 |
+| RF-016 | 🔄 In Progress | CI/CD & Release Automation | v0.2.4 |
 | v1.0.0 | Planned | Production Launch | v1.0.0 |
 
 ---
@@ -62,3 +63,5 @@
 | 3790798 | RF-013 Smoke Test Runtime |
 | 3bee2e3 | Workspace Typecheck Fix |
 | 4665646 | RF-014 Real Package Runtime |
+| 030de23 | RF-015 Service Runtime Consolidation |
+| 5a958aa | RF-014 Build Runtime Cleanup |

@@ -31,7 +31,7 @@
     "smoke": "node scripts/smoke-workspace.mjs"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.6.4",
     "eslint": "^9.0.0",
     "husky": "^9.0.0",
     "lint-staged": "^16.0.0",

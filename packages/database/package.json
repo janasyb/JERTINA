@@ -2,23 +2,43 @@
   "name": "@jertina/database",
   "version": "0.2.0",
   "private": true,
-  "description": "Database foundation and Prisma schema for JERTINA.",
+  "description": "PostgreSQL database access and Prisma schema for JERTINA.",
   "license": "UNLICENSED",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./client": "./src/client.mjs"
+  },
   "files": [
     "src",
-    "prisma"
+    "prisma",
+    "prisma.config.ts"
   ],
   "scripts": {
-    "build": "echo 'database package scaffold'",
-    "dev": "echo 'database package scaffold'",
-    "lint": "echo 'database package scaffold'",
-    "test": "echo 'database package scaffold'",
+    "build": "pnpm prisma:generate",
+    "dev": "echo 'Use the API service for runtime database access'",
+    "lint": "echo 'Database lint checks are covered by workspace validation'",
+    "test": "echo 'Database integration tests are run against the local PostgreSQL service'",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "prisma:format": "echo 'prisma format will be enabled after dependency installation'",
-    "prisma:validate": "echo 'prisma validate will be enabled after dependency installation'",
-    "prisma:generate": "echo 'prisma generate will be enabled after dependency installation'"
+    "prisma:format": "prisma format --schema prisma/schema.prisma",
+    "prisma:validate": "prisma validate --schema prisma/schema.prisma",
+    "prisma:generate": "prisma generate --schema prisma/schema.prisma",
+    "prisma:migrate:dev": "prisma migrate dev --schema prisma/schema.prisma",
+    "prisma:migrate:deploy": "prisma migrate deploy --schema prisma/schema.prisma",
+    "prisma:studio": "prisma studio --schema prisma/schema.prisma",
+    "db:seed": "node prisma/seed.mjs"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "7.10.0",
+    "@prisma/client": "7.10.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "prisma": "7.10.0"
   },
   "keywords": [
     "jertina",

@@ -7,11 +7,14 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-  "dev": "node src/runtime.mjs",
-  "build": "node ../../scripts/build-service-runtime.mjs api",
-  "start": "node src/runtime.mjs",
-  "lint": "echo 'api runtime scaffold'",
-  "test": "node src/test-runtime.mjs",
-  "typecheck": "tsc --noEmit -p tsconfig.json"
-}
+    "dev": "node src/runtime.mjs",
+    "build": "pnpm --filter @jertina/database prisma:generate && node ../../scripts/build-service-runtime.mjs api",
+    "start": "node src/runtime.mjs",
+    "lint": "echo 'api lint checks are covered by workspace validation'",
+    "test": "node src/test-runtime.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@jertina/database": "workspace:*"
+  }
 }

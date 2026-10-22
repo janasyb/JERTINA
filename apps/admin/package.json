@@ -16,7 +16,7 @@
     "@jertina/design-tokens": "workspace:*",
     "@jertina/ui": "workspace:*",
     "next": "^16.4.0",
-    "react": "^19.2.0",
+    "react": "^19.3.1",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {

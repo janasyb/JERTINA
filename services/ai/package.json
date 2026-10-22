@@ -9,10 +9,11 @@
   "scripts": {
   "dev": "node src/runtime.mjs",
   "build": "node ../../scripts/build-service-runtime.mjs ai",
+  "start": "node src/runtime.mjs",
   "lint": "echo 'ai runtime scaffold'",
   "test": "tsx src/index.test.ts",
   "typecheck": "tsc --noEmit -p tsconfig.json"
- },
+},
   "devDependencies": {
     "tsx": "^4.23.15"
   }
